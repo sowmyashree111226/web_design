@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Simple Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="https://formspree.io/f/mwkajnqq" method="POST">
+      <label>Name: <input type="text" name="name" required></label><br>
+      <label>Email: <input type="email" name="email" required></label><br>
+      <label>Message:<br><textarea name="message" rows="5" required></textarea></label><br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Simple Website</p>
+  </footer>
+
+  <div class="cookie-banner" id="cookie-banner">
+    <p>This website uses cookies to improve your experience. <button onclick="acceptCookies()">Accept</button></p>
+  </div>
+</body>
+</html>
